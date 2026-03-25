@@ -358,8 +358,8 @@
           <div class="featured-card"><img src="https://dist.neo4j.com/wp-content/uploads/20180813155701/aws-cloud-neo4j.png" alt="AWS" /></div>
           <div class="featured-card"><img src="https://dist.neo4j.com/wp-content/uploads/20180821105618/Microsoft_Azure_Logo.png" alt="Microsoft Azure" /></div>
           <div class="featured-card"><img src="https://dist.neo4j.com/wp-content/uploads/20190408145728/google-cloud.jpg" alt="Google Cloud" /></div>
-          <div class="featured-card"><span>Confluent</span></div>
-          <div class="featured-card"><span>Esri</span></div>
+          <div class="featured-card"><img src="https://cdn.simpleicons.org/confluent/FA4C00" alt="Confluent" /></div>
+          <div class="featured-card"><img src="https://cdn.simpleicons.org/esri/2C7AC3" alt="Esri" /></div>
           <div class="featured-card"><img src="https://dist.neo4j.com/wp-content/uploads/20200415145903/Hackolade-01-cropped.png" alt="Hackolade" /></div>
         </div>
       </section>
@@ -480,6 +480,7 @@
             name: "Neo4j Connector for Apache Kafka",
             url: "https://neo4j.com/docs/kafka/",
             description: "Streams data between Kafka topics and Neo4j or Aura using Kafka Connect.",
+            logo: "https://cdn.simpleicons.org/apachekafka/231F20",
             mark: "Kafka",
             tag: "official"
           },
@@ -487,6 +488,7 @@
             name: "Neo4j Connector for Confluent",
             url: "https://neo4j.com/docs/kafka/current/installation/#confluent-dist",
             description: "Managed and self-hosted Confluent connectivity built on the Neo4j Kafka connector.",
+            logo: "https://cdn.simpleicons.org/confluent/FA4C00",
             mark: "Confluent",
             tag: "official"
           },
@@ -494,6 +496,7 @@
             name: "Change Data Capture",
             url: "https://neo4j.com/docs/cdc/current/",
             description: "Captures graph changes so downstream systems can react in real time.",
+            logo: "https://neo4j.com/docs/_images/icon-cdc2.svg",
             mark: "CDC",
             tag: "official"
           },
@@ -501,6 +504,7 @@
             name: "Neo4j Data Importer",
             url: "https://neo4j.com/docs/data-importer",
             description: "Low-friction import tooling for CSV and tabular sources into graph models.",
+            logo: "https://neo4j.com/docs/_images/icon-import.svg",
             mark: "Importer",
             tag: "official"
           }
@@ -510,6 +514,7 @@
             name: "Neo4j Connector for Apache Spark",
             url: "https://neo4j.com/docs/spark/current/",
             description: "Moves data between Spark DataFrames and Neo4j, including Databricks deployments.",
+            logo: "https://cdn.simpleicons.org/apachespark/E25A1C",
             mark: "Spark",
             tag: "official"
           },
@@ -517,6 +522,7 @@
             name: "Neo4j Connector for AWS Glue",
             url: "https://neo4j.com/docs/neo4j-aws-glue",
             description: "Connects Glue ETL workflows to Neo4j and Aura via JDBC-based translation.",
+            logo: "https://cdn.simpleicons.org/amazonwebservices/232F3E",
             mark: "Glue",
             tag: "official"
           },
@@ -524,6 +530,7 @@
             name: "BigQuery to Neo4j",
             url: "https://neo4j.com/docs/dataflow-bigquery/",
             description: "Google Dataflow template for loading BigQuery data into Neo4j.",
+            logo: "https://cdn.simpleicons.org/googlebigquery/669DF6",
             mark: "BigQuery",
             tag: "official"
           },
@@ -531,6 +538,7 @@
             name: "Google Cloud to Neo4j",
             url: "https://neo4j.com/docs/dataflow-google-cloud/",
             description: "Dataflow-based import path for Google Cloud data sources into Neo4j.",
+            logo: "https://dist.neo4j.com/wp-content/uploads/20190408145728/google-cloud.jpg",
             mark: "GCP",
             tag: "official"
           },
@@ -538,6 +546,7 @@
             name: "Databricks via Spark Connector",
             url: "https://neo4j.com/docs/spark/current/databricks/",
             description: "Runs Neo4j integration on Databricks through the Spark connector stack.",
+            logo: "https://cdn.simpleicons.org/databricks/FF3621",
             mark: "Databricks",
             tag: "official"
           },
@@ -545,6 +554,7 @@
             name: "Neo4j ETL Tool",
             url: "https://neo4j.com/labs/etl-tool/",
             description: "Labs tooling for relational-to-graph migration and schema inference.",
+            logo: "https://neo4j.com/docs/_images/icon-import.svg",
             mark: "ETL",
             tag: "labs"
           },
@@ -552,6 +562,7 @@
             name: "Neosemantics",
             url: "https://neo4j.com/labs/neosemantics/",
             description: "RDF and Linked Data integration for import, export, and semantic graph work.",
+            logo: "https://neo4j.com/docs/_images/icon-developer.svg",
             mark: "RDF",
             tag: "labs"
           },
@@ -559,79 +570,80 @@
             name: "RDFLib-Neo4j",
             url: "https://neo4j.com/labs/rdflib-neo4j/",
             description: "Client-side RDFLib-backed store implementation for Neo4j.",
+            logo: "https://neo4j.com/docs/_images/icon-developer.svg",
             mark: "RDFLib",
             tag: "labs"
           }
         ],
         "grid-language-clients": [
-          { name: "Python Driver", url: "https://neo4j.com/docs/python-manual/current/", description: "Official Python driver for Neo4j applications.", mark: "Py", tag: "official" },
-          { name: "JavaScript Driver", url: "https://neo4j.com/docs/javascript-manual/current/", description: "Official JavaScript and Node.js driver.", mark: "JS", tag: "official" },
-          { name: "Java Driver", url: "https://neo4j.com/docs/java-manual/current/", description: "Official Java driver for Neo4j and Aura.", mark: "Java", tag: "official" },
-          { name: ".NET Driver", url: "https://neo4j.com/docs/dotnet-manual/current/", description: "Official .NET driver for graph-backed services and apps.", mark: ".NET", tag: "official" },
-          { name: "Go Driver", url: "https://neo4j.com/docs/go-manual/current/", description: "Official Go driver for Neo4j connectivity.", mark: "Go", tag: "official" },
-          { name: "JDBC Driver", url: "https://neo4j.com/docs/jdbc-manual/current/", description: "SQL-facing JDBC access layer used by several ecosystem integrations.", mark: "JDBC", tag: "official" }
+          { name: "Python Driver", url: "https://neo4j.com/docs/python-manual/current/", description: "Official Python driver for Neo4j applications.", logo: "https://neo4j.com/docs/_images/icon-python.svg", mark: "Py", tag: "official" },
+          { name: "JavaScript Driver", url: "https://neo4j.com/docs/javascript-manual/current/", description: "Official JavaScript and Node.js driver.", logo: "https://neo4j.com/docs/_images/icon-javascript.svg", mark: "JS", tag: "official" },
+          { name: "Java Driver", url: "https://neo4j.com/docs/java-manual/current/", description: "Official Java driver for Neo4j and Aura.", logo: "https://neo4j.com/docs/_images/icon-java.svg", mark: "Java", tag: "official" },
+          { name: ".NET Driver", url: "https://neo4j.com/docs/dotnet-manual/current/", description: "Official .NET driver for graph-backed services and apps.", logo: "https://neo4j.com/docs/_images/icon-dotnet.svg", mark: ".NET", tag: "official" },
+          { name: "Go Driver", url: "https://neo4j.com/docs/go-manual/current/", description: "Official Go driver for Neo4j connectivity.", logo: "https://neo4j.com/docs/_images/icon-go.svg", mark: "Go", tag: "official" },
+          { name: "JDBC Driver", url: "https://neo4j.com/docs/jdbc-manual/current/", description: "SQL-facing JDBC access layer used by several ecosystem integrations.", logo: "https://neo4j.com/docs/_images/icon-java.svg", mark: "JDBC", tag: "official" }
         ],
         "grid-apis": [
-          { name: "Query API", url: "https://neo4j.com/docs/query-api/current/", description: "Execute Cypher over HTTP in a modern API shape.", mark: "API", tag: "official" },
-          { name: "HTTP API", url: "https://neo4j.com/docs/http-api/", description: "Classic HTTP interface for Neo4j server integrations.", mark: "HTTP", tag: "official" },
-          { name: "Bolt Protocol", url: "https://neo4j.com/docs/bolt", description: "Binary protocol used by Neo4j language drivers.", mark: "Bolt", tag: "official" },
-          { name: "Cypher Builder", url: "https://neo4j.com/docs/cypher-builder/current/", description: "Programmatic Cypher construction for JavaScript and TypeScript.", mark: "Cypher", tag: "official" }
+          { name: "Query API", url: "https://neo4j.com/docs/query-api/current/", description: "Execute Cypher over HTTP in a modern API shape.", logo: "https://neo4j.com/docs/_images/icon-developer.svg", mark: "API", tag: "official" },
+          { name: "HTTP API", url: "https://neo4j.com/docs/http-api/", description: "Classic HTTP interface for Neo4j server integrations.", logo: "https://neo4j.com/docs/_images/icon-developer.svg", mark: "HTTP", tag: "official" },
+          { name: "Bolt Protocol", url: "https://neo4j.com/docs/bolt", description: "Binary protocol used by Neo4j language drivers.", logo: "https://neo4j.com/docs/_images/icon-developer.svg", mark: "Bolt", tag: "official" },
+          { name: "Cypher Builder", url: "https://neo4j.com/docs/cypher-builder/current/", description: "Programmatic Cypher construction for JavaScript and TypeScript.", logo: "https://neo4j.com/docs/_images/icon-developer.svg", mark: "Cypher", tag: "official" }
         ],
         "grid-ai": [
-          { name: "Neo4j GraphRAG for Python", url: "https://neo4j.com/docs/neo4j-graphrag-python/", description: "Official GraphRAG package for Python-based retrieval and generation workflows.", mark: "GraphRAG", tag: "official" },
-          { name: "MCP Server", url: "https://neo4j.com/docs/mcp/current/", description: "Neo4j Model Context Protocol server for agent and tool integrations.", mark: "MCP", tag: "official" },
-          { name: "GDS Python Client", url: "https://neo4j.com/docs/graph-data-science-client/current/", description: "Python interface to graph algorithms and machine learning in GDS.", mark: "GDS", tag: "official" },
-          { name: "Vector Indexes", url: "https://neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/vector-indexes/", description: "Native vector storage and similarity search for graph-grounded AI.", mark: "Vector", tag: "official" },
-          { name: "LangChain", url: "https://neo4j.com/labs/genai-ecosystem/langchain/", description: "Neo4j-supported framework integration for GraphRAG and vector-aware chains.", mark: "LangChain", tag: "labs" },
-          { name: "LangChainJS", url: "https://neo4j.com/labs/genai-ecosystem/langchain-js/", description: "JavaScript LangChain integration with graph and vector search patterns.", mark: "LangChainJS", tag: "labs" },
-          { name: "LlamaIndex", url: "https://neo4j.com/labs/genai-ecosystem/llamaindex/", description: "Graph-aware indexing and retrieval patterns using LlamaIndex with Neo4j.", mark: "LlamaIndex", tag: "labs" },
-          { name: "Haystack", url: "https://neo4j.com/labs/genai-ecosystem/haystack/", description: "Neo4j integration patterns for Haystack-powered retrieval applications.", mark: "Haystack", tag: "labs" },
-          { name: "Spring AI", url: "https://neo4j.com/labs/genai-ecosystem/spring-ai/", description: "Spring AI guidance for Neo4j-backed GenAI services.", mark: "Spring AI", tag: "labs" },
-          { name: "LangChain4j", url: "https://neo4j.com/labs/genai-ecosystem/langchain4j/", description: "Java-based GenAI integration path using LangChain4j and Neo4j.", mark: "LangChain4j", tag: "labs" },
-          { name: "Semantic Kernel", url: "https://neo4j.com/labs/genai-ecosystem/semantic-kernel/", description: "Semantic Kernel integration guides for graph-grounded assistants.", mark: "SK", tag: "labs" },
-          { name: "Agent Memory", url: "https://neo4j.com/labs/agent-memory/", description: "Graph-based memory system for AI agents with framework integrations.", mark: "Memory", tag: "labs" },
-          { name: "LLM Knowledge Graph Builder", url: "https://neo4j.com/labs/genai-ecosystem/llm-graph-builder/", description: "Turn unstructured content into knowledge graphs for GraphRAG workflows.", mark: "LLM KG", tag: "labs" },
-          { name: "NeoConverse", url: "https://neo4j.com/labs/genai-ecosystem/neoconverse/", description: "Query, chat, and visualize across datasets using Neo4j GenAI ecosystem tooling.", mark: "NeoConverse", tag: "labs" }
+          { name: "Neo4j GraphRAG for Python", url: "https://neo4j.com/docs/neo4j-graphrag-python/", description: "Official GraphRAG package for Python-based retrieval and generation workflows.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "GraphRAG", tag: "official" },
+          { name: "MCP Server", url: "https://neo4j.com/docs/mcp/current/", description: "Neo4j Model Context Protocol server for agent and tool integrations.", logo: "https://neo4j.com/docs/_images/icon-mcp.svg", mark: "MCP", tag: "official" },
+          { name: "GDS Python Client", url: "https://neo4j.com/docs/graph-data-science-client/current/", description: "Python interface to graph algorithms and machine learning in GDS.", logo: "https://neo4j.com/docs/_images/icon-python.svg", mark: "GDS", tag: "official" },
+          { name: "Vector Indexes", url: "https://neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/vector-indexes/", description: "Native vector storage and similarity search for graph-grounded AI.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "Vector", tag: "official" },
+          { name: "LangChain", url: "https://neo4j.com/labs/genai-ecosystem/langchain/", description: "Neo4j-supported framework integration for GraphRAG and vector-aware chains.", logo: "https://cdn.simpleicons.org/langchain/1C3C3C", mark: "LangChain", tag: "labs" },
+          { name: "LangChainJS", url: "https://neo4j.com/labs/genai-ecosystem/langchain-js/", description: "JavaScript LangChain integration with graph and vector search patterns.", logo: "https://cdn.simpleicons.org/langchain/1C3C3C", mark: "LangChainJS", tag: "labs" },
+          { name: "LlamaIndex", url: "https://neo4j.com/labs/genai-ecosystem/llamaindex/", description: "Graph-aware indexing and retrieval patterns using LlamaIndex with Neo4j.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "LlamaIndex", tag: "labs" },
+          { name: "Haystack", url: "https://neo4j.com/labs/genai-ecosystem/haystack/", description: "Neo4j integration patterns for Haystack-powered retrieval applications.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "Haystack", tag: "labs" },
+          { name: "Spring AI", url: "https://neo4j.com/labs/genai-ecosystem/spring-ai/", description: "Spring AI guidance for Neo4j-backed GenAI services.", logo: "https://cdn.simpleicons.org/spring/6DB33F", mark: "Spring AI", tag: "labs" },
+          { name: "LangChain4j", url: "https://neo4j.com/labs/genai-ecosystem/langchain4j/", description: "Java-based GenAI integration path using LangChain4j and Neo4j.", logo: "https://neo4j.com/docs/_images/icon-java.svg", mark: "LangChain4j", tag: "labs" },
+          { name: "Semantic Kernel", url: "https://neo4j.com/labs/genai-ecosystem/semantic-kernel/", description: "Semantic Kernel integration guides for graph-grounded assistants.", logo: "https://cdn.simpleicons.org/microsoft/5E5E5E", mark: "SK", tag: "labs" },
+          { name: "Agent Memory", url: "https://neo4j.com/labs/agent-memory/", description: "Graph-based memory system for AI agents with framework integrations.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "Memory", tag: "labs" },
+          { name: "LLM Knowledge Graph Builder", url: "https://neo4j.com/labs/genai-ecosystem/llm-graph-builder/", description: "Turn unstructured content into knowledge graphs for GraphRAG workflows.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "LLM KG", tag: "labs" },
+          { name: "NeoConverse", url: "https://neo4j.com/labs/genai-ecosystem/neoconverse/", description: "Query, chat, and visualize across datasets using Neo4j GenAI ecosystem tooling.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "NeoConverse", tag: "labs" }
         ],
         "grid-bi": [
-          { name: "BI Connector (JDBC)", url: "https://dist.neo4j.org/Neo4j-BI-Connector-JDBC-1.0.10-docs.pdf", description: "JDBC bridge for BI tools supported by the Neo4j BI connector.", mark: "JDBC", tag: "partner" },
-          { name: "BI Connector (ODBC)", url: "https://dist.neo4j.org/Neo4j-BI-Connector-ODBC-1.0.1-docs.pdf", description: "ODBC path for BI and reporting platforms through the Neo4j BI connector.", mark: "ODBC", tag: "partner" },
-          { name: "Power BI", url: "https://neo4j.com/docs/connectors/", description: "Mentioned by Neo4j as a supported BI platform via the Simba data connector.", mark: "Power BI", tag: "partner" },
-          { name: "Tableau", url: "https://neo4j.com/docs/connectors/", description: "Mentioned by Neo4j as a supported BI platform via the Simba data connector.", mark: "Tableau", tag: "partner" },
-          { name: "Neo4j Bloom", url: "https://neo4j.com/docs/bloom-user-guide/current/", description: "Visual graph exploration for analysts and domain experts.", mark: "Bloom", tag: "official" },
-          { name: "Explore (Aura)", url: "https://neo4j.com/docs/aura/preview/explore/introduction/", description: "Aura-native graph exploration experience.", mark: "Explore", tag: "official" },
-          { name: "Neo4j Browser", url: "https://neo4j.com/docs/browser/", description: "Classic Cypher console and result visualization UI.", mark: "Browser", tag: "official" },
-          { name: "Query (Aura)", url: "https://neo4j.com/docs/aura/preview/query/introduction/", description: "Aura query interface for Cypher execution and analysis.", mark: "Query", tag: "official" },
-          { name: "NeoDash", url: "https://neo4j.com/labs/neodash/", description: "Low-code dashboard builder for graph-backed charts, tables, and maps.", mark: "NeoDash", tag: "labs" }
+          { name: "BI Connector (JDBC)", url: "https://dist.neo4j.org/Neo4j-BI-Connector-JDBC-1.0.10-docs.pdf", description: "JDBC bridge for BI tools supported by the Neo4j BI connector.", logo: "https://neo4j.com/docs/_images/icon-bi.svg", mark: "JDBC", tag: "partner" },
+          { name: "BI Connector (ODBC)", url: "https://dist.neo4j.org/Neo4j-BI-Connector-ODBC-1.0.1-docs.pdf", description: "ODBC path for BI and reporting platforms through the Neo4j BI connector.", logo: "https://neo4j.com/docs/_images/icon-bi.svg", mark: "ODBC", tag: "partner" },
+          { name: "Power BI", url: "https://neo4j.com/docs/connectors/", description: "Mentioned by Neo4j as a supported BI platform via the Simba data connector.", logo: "https://cdn.simpleicons.org/powerbi/F2C811", mark: "Power BI", tag: "partner" },
+          { name: "Tableau", url: "https://neo4j.com/docs/connectors/", description: "Mentioned by Neo4j as a supported BI platform via the Simba data connector.", logo: "https://cdn.simpleicons.org/tableau/409FCE", mark: "Tableau", tag: "partner" },
+          { name: "Neo4j Bloom", url: "https://neo4j.com/docs/bloom-user-guide/current/", description: "Visual graph exploration for analysts and domain experts.", logo: "https://neo4j.com/docs/_images/icon-bloom.svg", mark: "Bloom", tag: "official" },
+          { name: "Explore (Aura)", url: "https://neo4j.com/docs/aura/preview/explore/introduction/", description: "Aura-native graph exploration experience.", logo: "https://neo4j.com/docs/_images/icon-bloom.svg", mark: "Explore", tag: "official" },
+          { name: "Neo4j Browser", url: "https://neo4j.com/docs/browser/", description: "Classic Cypher console and result visualization UI.", logo: "https://neo4j.com/docs/_images/icon-developer.svg", mark: "Browser", tag: "official" },
+          { name: "Query (Aura)", url: "https://neo4j.com/docs/aura/preview/query/introduction/", description: "Aura query interface for Cypher execution and analysis.", logo: "https://neo4j.com/docs/_images/icon-developer.svg", mark: "Query", tag: "official" },
+          { name: "NeoDash", url: "https://neo4j.com/labs/neodash/", description: "Low-code dashboard builder for graph-backed charts, tables, and maps.", logo: "https://neo4j.com/labs/neodash/_images/neodash.png", mark: "NeoDash", tag: "labs" }
         ],
         "grid-frameworks": [
-          { name: "Neo4j GraphQL Library", url: "https://neo4j.com/docs/graphql-manual/current/", description: "GraphQL-to-Neo4j application stack maintained by Neo4j.", mark: "GraphQL", tag: "official" },
-          { name: "Spring Data Neo4j", url: "https://docs.spring.io/spring-data/neo4j/reference/", description: "Spring Data module for graph persistence and application development.", mark: "Spring", tag: "official" },
-          { name: "Neo4j OGM", url: "https://neo4j.com/docs/ogm-manual/current/", description: "Object graph mapping library for Java applications.", mark: "OGM", tag: "official" },
-          { name: "neomodel", url: "https://neo4j.com/labs/neomodel/", description: "Pythonic object graph mapper from Neo4j Labs.", mark: "neomodel", tag: "labs" },
-          { name: "Neo4j-Migrations", url: "https://neo4j.com/labs/neo4j-migrations/", description: "Schema migration tooling for applications, CLI, and build systems.", mark: "Migrations", tag: "labs" },
-          { name: "Liquibase Plugin", url: "https://neo4j.com/labs/liquibase/", description: "Schema change management for Neo4j via Liquibase.", mark: "Liquibase", tag: "labs" },
-          { name: "APOC", url: "https://neo4j.com/labs/apoc/", description: "Procedures and functions for integration, refactoring, and operational workflows.", mark: "APOC", tag: "labs" },
-          { name: "Cypher Workbench", url: "https://neo4j.com/labs/cypher-workbench/", description: "Web-based modeling, building, and debugging tools for Cypher projects.", mark: "Workbench", tag: "labs" },
-          { name: "arrows.app", url: "https://neo4j.com/labs/arrows/", description: "Graph diagramming and modeling tool widely used in Neo4j solution design.", mark: "arrows", tag: "labs" },
-          { name: "Keymaker", url: "https://neo4j.com/labs/keymaker/", description: "Build analytical pipelines in Cypher and expose them via GraphQL.", mark: "Keymaker", tag: "labs" }
+          { name: "Neo4j GraphQL Library", url: "https://neo4j.com/docs/graphql-manual/current/", description: "GraphQL-to-Neo4j application stack maintained by Neo4j.", logo: "https://cdn.simpleicons.org/graphql/E10098", mark: "GraphQL", tag: "official" },
+          { name: "Spring Data Neo4j", url: "https://docs.spring.io/spring-data/neo4j/reference/", description: "Spring Data module for graph persistence and application development.", logo: "https://cdn.simpleicons.org/spring/6DB33F", mark: "Spring", tag: "official" },
+          { name: "Neo4j OGM", url: "https://neo4j.com/docs/ogm-manual/current/", description: "Object graph mapping library for Java applications.", logo: "https://neo4j.com/docs/_images/icon-java.svg", mark: "OGM", tag: "official" },
+          { name: "neomodel", url: "https://neo4j.com/labs/neomodel/", description: "Pythonic object graph mapper from Neo4j Labs.", logo: "https://neo4j.com/docs/_images/icon-python.svg", mark: "neomodel", tag: "labs" },
+          { name: "Neo4j-Migrations", url: "https://neo4j.com/labs/neo4j-migrations/", description: "Schema migration tooling for applications, CLI, and build systems.", logo: "https://neo4j.com/docs/_images/icon-developer.svg", mark: "Migrations", tag: "labs" },
+          { name: "Liquibase Plugin", url: "https://neo4j.com/labs/liquibase/", description: "Schema change management for Neo4j via Liquibase.", logo: "https://cdn.simpleicons.org/liquibase/2962FF", mark: "Liquibase", tag: "labs" },
+          { name: "APOC", url: "https://neo4j.com/labs/apoc/", description: "Procedures and functions for integration, refactoring, and operational workflows.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "APOC", tag: "labs" },
+          { name: "Cypher Workbench", url: "https://neo4j.com/labs/cypher-workbench/", description: "Web-based modeling, building, and debugging tools for Cypher projects.", logo: "https://neo4j.com/docs/_images/icon-developer.svg", mark: "Workbench", tag: "labs" },
+          { name: "arrows.app", url: "https://neo4j.com/labs/arrows/", description: "Graph diagramming and modeling tool widely used in Neo4j solution design.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "arrows", tag: "labs" },
+          { name: "Keymaker", url: "https://neo4j.com/labs/keymaker/", description: "Build analytical pipelines in Cypher and expose them via GraphQL.", logo: "https://neo4j.com/docs/_images/icon-developer.svg", mark: "Keymaker", tag: "labs" }
         ],
         "grid-cloud": [
-          { name: "Neo4j Aura", url: "https://neo4j.com/docs/aura/", description: "Managed Neo4j cloud platform spanning database, analytics, console, and operations.", mark: "Aura", tag: "official" },
-          { name: "AuraDB", url: "https://neo4j.com/product/auradb/", description: "Fully managed graph database service with marketplace integrations.", mark: "AuraDB", tag: "official" },
-          { name: "Aura Graph Analytics", url: "https://neo4j.com/product/aura-graph-analytics/", description: "Managed graph analytics and algorithm execution in Neo4j cloud workflows.", mark: "Analytics", tag: "official" },
+          { name: "Neo4j Aura", url: "https://neo4j.com/docs/aura/", description: "Managed Neo4j cloud platform spanning database, analytics, console, and operations.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "Aura", tag: "official" },
+          { name: "AuraDB", url: "https://neo4j.com/product/auradb/", description: "Fully managed graph database service with marketplace integrations.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "AuraDB", tag: "official" },
+          { name: "Aura Graph Analytics", url: "https://neo4j.com/product/aura-graph-analytics/", description: "Managed graph analytics and algorithm execution in Neo4j cloud workflows.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "Analytics", tag: "official" },
           { name: "AWS", url: "https://neo4j.com/cloud/aura-aws/", description: "Neo4j on AWS with AuraDB marketplace support and integrations for Bedrock, EMR, Redshift, and Kinesis.", logo: "https://dist.neo4j.com/wp-content/uploads/20180813155701/aws-cloud-neo4j.png", tag: "partner" },
           { name: "Microsoft Azure", url: "https://neo4j.com/partners/microsoft/", description: "Neo4j partner page covering AuraDB on Azure, Fabric integration, and Azure AI workflows.", logo: "https://dist.neo4j.com/wp-content/uploads/20180821105618/Microsoft_Azure_Logo.png", tag: "partner" },
           { name: "Google Cloud", url: "https://neo4j.com/partners/google/", description: "Neo4j partner page for Google Cloud, including BigQuery, Dataflow, Vertex AI, and marketplace deployment.", logo: "https://dist.neo4j.com/wp-content/uploads/20190408145728/google-cloud.jpg", tag: "partner" },
-          { name: "Microsoft Fabric", url: "https://neo4j.com/neo4j-graph-intelligence-microsoft-fabric/", description: "Neo4j Graph Intelligence for Microsoft Fabric with integrated graph analytics and knowledge graph workflows.", mark: "Fabric", tag: "partner" },
-          { name: "Snowflake", url: "https://neo4j.com/neo4j-graph-analytics-snowflake/", description: "Graph analytics offering for Snowflake and related AI/data cloud workflows.", mark: "Snowflake", tag: "partner" },
-          { name: "Databricks", url: "https://neo4j.com/docs/spark/current/databricks/", description: "Databricks integration path via the Neo4j Spark connector and partner ecosystem content.", mark: "Databricks", tag: "partner" },
-          { name: "Confluent Cloud", url: "https://neo4j.com/users/confluent/", description: "Technology partner integration for real-time graph eventing with Confluent Cloud and Platform.", mark: "Confluent", tag: "partner" }
+          { name: "Microsoft Fabric", url: "https://neo4j.com/neo4j-graph-intelligence-microsoft-fabric/", description: "Neo4j Graph Intelligence for Microsoft Fabric with integrated graph analytics and knowledge graph workflows.", logo: "https://cdn.simpleicons.org/microsoft/5E5E5E", mark: "Fabric", tag: "partner" },
+          { name: "Snowflake", url: "https://neo4j.com/neo4j-graph-analytics-snowflake/", description: "Graph analytics offering for Snowflake and related AI/data cloud workflows.", logo: "https://cdn.simpleicons.org/snowflake/29B5E8", mark: "Snowflake", tag: "partner" },
+          { name: "Databricks", url: "https://neo4j.com/docs/spark/current/databricks/", description: "Databricks integration path via the Neo4j Spark connector and partner ecosystem content.", logo: "https://cdn.simpleicons.org/databricks/FF3621", mark: "Databricks", tag: "partner" },
+          { name: "Confluent Cloud", url: "https://neo4j.com/users/confluent/", description: "Technology partner integration for real-time graph eventing with Confluent Cloud and Platform.", logo: "https://cdn.simpleicons.org/confluent/FA4C00", mark: "Confluent", tag: "partner" }
         ],
         "grid-isv": [
-          { name: "Esri", url: "https://neo4j.com/users/esri/", description: "Technology partner pairing graph intelligence with geospatial analysis and ArcGIS Knowledge.", mark: "Esri", tag: "partner" },
-          { name: "Informatica", url: "https://neo4j.com/users/informatica/", description: "Enterprise data management platform partner for connected, governed data flows.", mark: "Informatica", tag: "partner" },
-          { name: "StreamSets", url: "https://www.ibm.com/products/streamsets", description: "Data ingestion and pipeline platform used in broader data ecosystem workflows around Neo4j.", mark: "StreamSets", tag: "ecosystem" },
+          { name: "Esri", url: "https://neo4j.com/users/esri/", description: "Technology partner pairing graph intelligence with geospatial analysis and ArcGIS Knowledge.", logo: "https://cdn.simpleicons.org/esri/2C7AC3", mark: "Esri", tag: "partner" },
+          { name: "Informatica", url: "https://neo4j.com/users/informatica/", description: "Enterprise data management platform partner for connected, governed data flows.", logo: "https://cdn.simpleicons.org/informatica/FF4D00", mark: "Informatica", tag: "partner" },
+          { name: "StreamSets", url: "https://www.ibm.com/products/streamsets", description: "Data ingestion and pipeline platform used in broader data ecosystem workflows around Neo4j.", logo: "https://cdn.simpleicons.org/ibm/052FAD", mark: "StreamSets", tag: "ecosystem" },
           { name: "Hackolade", url: "https://neo4j.com/users/hackolade/", description: "Technology partner for visual data modeling, reverse engineering, and schema documentation for Neo4j.", logo: "https://dist.neo4j.com/wp-content/uploads/20200415145903/Hackolade-01-cropped.png", tag: "partner" }
         ]
       };
