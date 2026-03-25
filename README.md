@@ -1,4 +1,3 @@
-# partners
+# neo4j-partners
 
-- [Neo4j Integrations](neo4j-integrations.md)
-- [Neo4j Integrations (HTML)](neo4j-integrations.html)
+Learn about Neo4j partners at https://neo4j-partners.github.io/neo4j-partners/
