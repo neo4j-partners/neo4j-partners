@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Neo4j Integrations</title>
+    <title>Neo4j Partner</title>
     <style>
       :root {
         --bg: #f6f8f4;
@@ -348,10 +348,9 @@
     <main>
       <section class="hero">
         <div class="eyebrow">Neo4j ecosystem</div>
-        <h1 id="integrations">Integrations</h1>
+        <h1 id="top">Neo4j Partner</h1>
         <p class="subhead">
-          Connect Neo4j with cloud platforms, event streams, BI tools, developer frameworks, and the broader partner ecosystem.
-          This page draws from Neo4j docs, Neo4j Labs, and the Neo4j partners section to present the ecosystem as a tile directory instead of a plain link list.
+          Explore Neo4j integrations, deployment options, and cloud marketplace paths from Neo4j docs, Neo4j Labs, and the Neo4j partners ecosystem.
         </p>
 
         <div class="featured-logos" aria-label="Featured partner logos">
@@ -366,6 +365,8 @@
 
       <div class="nav-block">
         <nav class="category-nav" aria-label="Integration categories">
+          <a class="chip" href="#deployment">Deployment</a>
+          <a class="chip" href="#cloud-marketplace">Cloud marketplace</a>
           <a class="chip" href="#data-ingestion--streaming">Data ingestion</a>
           <a class="chip" href="#data-integration--etl">Data integration</a>
           <a class="chip" href="#language-clients--drivers">Language clients</a>
@@ -375,8 +376,19 @@
           <a class="chip" href="#developer-frameworks">Developer frameworks</a>
           <a class="chip" href="#cloud--data-platforms">Cloud</a>
           <a class="chip" href="#isv--technology-partners">ISV</a>
+          <a class="chip" href="#integrations-overview">Integrations</a>
         </nav>
       </div>
+
+      <section class="section" id="deployment">
+        <div class="section-head">
+          <div>
+            <h2>Deployment</h2>
+            <p>Install and run Neo4j with Linux installers and Kubernetes deployment guidance.</p>
+          </div>
+        </div>
+        <div class="tile-grid" id="grid-deployment"></div>
+      </section>
 
       <section class="section" id="data-ingestion--streaming">
         <div class="section-head">
@@ -466,6 +478,25 @@
           </div>
         </div>
         <div class="tile-grid" id="grid-isv"></div>
+      </section>
+
+      <section class="section" id="cloud-marketplace">
+        <div class="section-head">
+          <div>
+            <h2>Cloud marketplace</h2>
+            <p>Start Neo4j AuraDB from leading cloud marketplaces.</p>
+          </div>
+        </div>
+        <div class="tile-grid" id="grid-cloud-marketplace"></div>
+      </section>
+
+      <section class="section" id="integrations-overview">
+        <div class="section-head">
+          <div>
+            <h2>Integrations</h2>
+            <p>Browse integration options across ingestion, APIs, AI, BI, cloud platforms, and ecosystem partners.</p>
+          </div>
+        </div>
       </section>
 
       <p class="footer-note">
@@ -645,6 +676,58 @@
           { name: "Informatica", url: "https://neo4j.com/users/informatica/", description: "Enterprise data management platform partner for connected, governed data flows.", logo: "https://cdn.simpleicons.org/informatica/FF4D00", mark: "Informatica", tag: "partner" },
           { name: "StreamSets", url: "https://www.ibm.com/products/streamsets", description: "Data ingestion and pipeline platform used in broader data ecosystem workflows around Neo4j.", logo: "https://cdn.simpleicons.org/ibm/052FAD", mark: "StreamSets", tag: "ecosystem" },
           { name: "Hackolade", url: "https://neo4j.com/users/hackolade/", description: "Technology partner for visual data modeling, reverse engineering, and schema documentation for Neo4j.", logo: "https://dist.neo4j.com/wp-content/uploads/20200415145903/Hackolade-01-cropped.png", tag: "partner" }
+        ],
+        "grid-deployment": [
+          {
+            name: "Linux RPM Installer",
+            url: "https://neo4j.com/docs/operations-manual/current/installation/linux/rpm/",
+            description: "Install Neo4j on RPM-based Linux distributions such as RHEL, CentOS, Fedora, and Amazon Linux.",
+            logo: "https://cdn.simpleicons.org/redhat/EE0000",
+            mark: "RPM",
+            tag: "official"
+          },
+          {
+            name: "Linux TGZ Installer",
+            url: "https://neo4j.com/docs/operations-manual/current/installation/linux/tarball/",
+            description: "Install Neo4j from the Linux tarball (.tar.gz / .tgz) for self-managed deployments.",
+            logo: "https://cdn.simpleicons.org/linux/FCC624",
+            mark: "TGZ",
+            tag: "official"
+          },
+          {
+            name: "Kubernetes Deployment",
+            url: "https://neo4j.com/docs/operations-manual/current/kubernetes/",
+            description: "Deploy Neo4j on Kubernetes using Neo4j Helm charts for standalone and clustered setups.",
+            logo: "https://cdn.simpleicons.org/kubernetes/326CE5",
+            mark: "K8s",
+            tag: "official"
+          }
+        ],
+        "grid-cloud-marketplace": [
+          {
+            name: "AWS Marketplace",
+            url: "https://aws.amazon.com/marketplace/pp/prodview-xd42uzj2v7dae",
+            description: "Launch Neo4j AuraDB through AWS Marketplace and apply AWS credits.",
+            logo: "https://dist.neo4j.com/wp-content/uploads/20180813155701/aws-cloud-neo4j.png",
+            mark: "AWS",
+            tag: "partner"
+          },
+          {
+            name: "Azure Marketplace",
+            url: "https://portal.azure.com/#view/Microsoft_Azure_Marketplace/GalleryItemDetailsBladeNopdl/id/neo4j.neo4j-aura",
+            description: "Start Neo4j AuraDB from Azure Marketplace and apply Azure credits.",
+            logo: "https://dist.neo4j.com/wp-content/uploads/20180821105618/Microsoft_Azure_Logo.png",
+            mark: "Azure",
+            tag: "partner"
+          },
+          {
+            name: "Google Cloud Marketplace",
+            url: "https://console.cloud.google.com/marketplace/product/neo4j-mp-public/neo4j-aura",
+            description: "Deploy Neo4j AuraDB from Google Cloud Marketplace with Google Cloud credits.",
+            logo: "https://dist.neo4j.com/wp-content/uploads/20190408145728/google-cloud.jpg",
+            mark: "GCP",
+            tag: "partner"
+          }
         ]
       };
 
