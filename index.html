@@ -207,6 +207,25 @@
         letter-spacing: -0.03em;
       }
 
+      .deployment-title {
+        font-size: clamp(2rem, 5vw, 3rem) !important;
+        letter-spacing: -0.04em;
+      }
+
+      .deployment-subsection {
+        margin-top: 20px;
+      }
+
+      .deployment-subsection h3 {
+        margin: 0 0 8px;
+        font-size: 1.22rem;
+        letter-spacing: -0.02em;
+      }
+
+      .deployment-subsection p {
+        margin: 0 0 12px;
+      }
+
       .section p {
         margin: 0;
         max-width: 740px;
@@ -383,11 +402,22 @@
       <section class="section" id="deployment">
         <div class="section-head">
           <div>
-            <h2>Deployment</h2>
-            <p>Install and run Neo4j with Linux installers and Kubernetes deployment guidance.</p>
+            <h2 class="deployment-title">Deployment</h2>
+            <p>Install and run Neo4j with Linux packages, Kubernetes guidance, and cloud marketplace paths.</p>
           </div>
         </div>
-        <div class="tile-grid" id="grid-deployment"></div>
+
+        <div class="deployment-subsection" id="deployment-installers">
+          <h3>Installers</h3>
+          <p>Linux installers and Kubernetes deployment options for self-managed Neo4j.</p>
+          <div class="tile-grid" id="grid-deployment"></div>
+        </div>
+
+        <div class="deployment-subsection" id="cloud-marketplace">
+          <h3>Cloud marketplace</h3>
+          <p>Launch Neo4j AuraDB from major cloud marketplaces.</p>
+          <div class="tile-grid" id="grid-cloud-marketplace"></div>
+        </div>
       </section>
 
       <section class="section" id="data-ingestion--streaming">
@@ -478,16 +508,6 @@
           </div>
         </div>
         <div class="tile-grid" id="grid-isv"></div>
-      </section>
-
-      <section class="section" id="cloud-marketplace">
-        <div class="section-head">
-          <div>
-            <h2>Cloud marketplace</h2>
-            <p>Start Neo4j AuraDB from leading cloud marketplaces.</p>
-          </div>
-        </div>
-        <div class="tile-grid" id="grid-cloud-marketplace"></div>
       </section>
 
       <section class="section" id="integrations-overview">
